@@ -1,0 +1,136 @@
+/*Menu*/
+
+
+
+
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+
+}
+
+nav ul li:hover {
+  background: #d6d6d6;
+  border-radius: 4px;
+  transition: .5s;
+}
+
+nav ul li.active a {
+  color: #333;
+}
+
+#mainNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #a5a5a562;
+  font-family: "Madimi One", sans-serif;
+  font-style: normal
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 0.5rem;
+  }
+}
+
+
+
+
+body {
+
+  margin-top: 40px;
+}
+
+
+/*Estilo Letra*/
+
+h2 {
+
+
+  font-family: "Madimi One", sans-serif;
+  font-style: normal
+}
+
+
+h3 {
+
+  font-family: "Madimi One", sans-serif;
+
+  font-style: normal;
+
+}
+
+
+h5{
+
+
+  font-family: "Madimi One", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+
+
+}
+
+p {
+
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 400;
+  
+
+}
+
+/*IMG Perfil*/
+
+
+.img-fluid {
+
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 1px 10px ;
+  border-radius: 50px;
+
+}
+
+
+.card-img-top {
+
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  
+
+
+
+}
+
+.carousel-inner {
+
+
+   display: flex;
+    align-items: left;
+    justify-content: left;
+    
+  
+}
